@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=UBS Registration Setup
+
+
+[Package|UBS Registration Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\serindit\Desktop\UBS_Register\Package
+
+[Package|UBS Registration Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UBS Registration Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UBS Registration Setup|Files Found]
+
+[Package|UBS Registration Setup|Files Released]
+
+[Package|UBS Registration Setup|Missing Dependency Information]
+C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE=
+
+[Package|UBS Registration Setup|Out-of-Date Dependency Information]
+
+[Package|UBS Registration Setup|Files Added]
+
+[Package|UBS Registration Setup|Files Removed]
+
+[Package|UBS Registration Setup|Files In Project]
+C:\Documents and Settings\serindit\Desktop\UBS_Register\UBS Registration System.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|UBS Registration Setup|Configure Registry Files]
+Applicable=No
+
+[Package|UBS Registration Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|UBS Registration Setup|Install Locations]
+C:\Documents and Settings\serindit\Desktop\UBS_Register\UBS Registration System.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|UBS Registration Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\serindit\Desktop\UBS_Register\UBS Registration System.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|UBS Registration Setup|Distribution]
+Type=single
+Size=
+Title=UBS Registration System
+
+[Package|UBS Registration Setup|IconGroups]
+Group0=UBS Registration System
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|UBS Registration Setup|UBS Registration System]
+Icon1="UBS Registration System.exe"
+Title1=UBS Registration System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|UBS Registration Setup|Package]
+PackageFolder=C:\Documents and Settings\serindit\Desktop\UBS_Register\Package
+ProjectFolder=C:\Documents and Settings\serindit\Desktop\UBS_Register
+ServerSideCab=
+File1=C:\Documents and Settings\serindit\Desktop\UBS_Register\Package\setup.exe
+File2=C:\Documents and Settings\serindit\Desktop\UBS_Register\Package\Setup.Lst
+File3=C:\Documents and Settings\serindit\Desktop\UBS_Register\Package\UBS Registration System.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
